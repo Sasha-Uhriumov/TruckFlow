@@ -37,4 +37,8 @@ public class DriverProfile {
     @OneToOne
     @JoinColumn(name = "user_id", nullable = false, unique = true)
     private User user;
+
+    @OneToOne()
+    @JoinColumn(name = "truck_id", nullable = false)
+    private Truck truck;
 }
