@@ -1,6 +1,6 @@
 package com.sasha.truckflow.enums;
 
-public enum Roles {
+public enum RoleType {
     CUSTOMER,
     DRIVER
 }
