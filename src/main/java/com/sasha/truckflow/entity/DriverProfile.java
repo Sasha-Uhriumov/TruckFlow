@@ -33,12 +33,4 @@ public class DriverProfile {
 
     @Column(name = "address", length = 100, nullable = false)
     private String address;
-
-    @OneToOne
-    @JoinColumn(name = "user_id", nullable = false, unique = true)
-    private User user;
-
-    @OneToOne()
-    @JoinColumn(name = "truck_id", nullable = false)
-    private Truck truck;
 }
