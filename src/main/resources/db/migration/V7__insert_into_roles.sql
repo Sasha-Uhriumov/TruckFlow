@@ -1,0 +1,2 @@
+INSERT INTO roles (role) VALUES ('CUSTOMER');
+INSERT INTO roles (role) VALUES ('DRIVER');
