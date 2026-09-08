@@ -28,7 +28,7 @@ public class CustomerProfile {
     @Column(name = "phone_number", length = 15, nullable = false, unique = true)
     private String phoneNumber;
 
-    @Column(name = "company_name", length = 10, nullable = false)
+    @Column(name = "company_name", length = 100, nullable = false)
     private String companyName;
 
     @Column(name = "address", length = 100, nullable = false)
