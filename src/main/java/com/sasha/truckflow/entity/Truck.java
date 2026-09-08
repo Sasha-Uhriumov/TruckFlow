@@ -20,8 +20,8 @@ public class Truck {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "make", length = 30, nullable = false)
-    private String make;
+    @Column(name = "brand", length = 30, nullable = false)
+    private String brand;
 
     @Column(name = "capacity", nullable = false)
     private Integer capacity;
