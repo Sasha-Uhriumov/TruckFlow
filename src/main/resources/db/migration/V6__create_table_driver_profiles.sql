@@ -5,7 +5,7 @@ CREATE TABLE driver_profiles (
     phone_number VARCHAR(15) NOT NULL UNIQUE,
     license_number VARCHAR(10) NOT NULL UNIQUE,
     address VARCHAR(100) NOT NULL,
-    user_id BIGINT NOT NULL, UNIQUE,
+    user_id BIGINT NOT NULL UNIQUE,
     truck_id BIGINT NOT NULL,
 
     CONSTRAINT fk_user_id_driver_profiles

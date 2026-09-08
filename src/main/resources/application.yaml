@@ -1,3 +1,16 @@
 spring:
   application:
     name: TruckFlow
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/truckflow
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+server:
+  port: 8080

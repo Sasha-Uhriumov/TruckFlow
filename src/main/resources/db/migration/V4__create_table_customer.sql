@@ -5,7 +5,7 @@ CREATE TABLE customer_profiles (
     phone_number VARCHAR(15) NOT NULL UNIQUE,
     company_name VARCHAR(100) NOT NULL,
     address VARCHAR(100) NOT NULL,
-    user_id BIGINT NOT NULL, UNIQUE,
+    user_id BIGINT NOT NULL UNIQUE,
 
     CONSTRAINT fk_customer_user_id
                       FOREIGN KEY (user_id)
